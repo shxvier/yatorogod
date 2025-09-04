@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <!-- Важная мета-информация для корректного отображения на мобильных устройствах -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная сайта</title>
-    <meta name="description" content="Краткое описание главной страницы вашего сайта>
+    <title>О нас</title>
+    <meta name="description" content="Инфоломация о нас>
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <!-- Верхнаяя часть страницы-->
     <header>
         <a href="index.html"> Логотип </a>
-        <nav>
+        <nav aria-label="Хлебные крошки">
+            <a href="index.html">Главная</a>
+            <span>-></span>
+            <span>О нас</span>
             <ul>
                 <li>
                     <a href = "index.html"> Главная</a>
@@ -28,24 +31,16 @@
     </header>
     <!-- Основная часть страницы-->
     <main> 
-        <h1>Добро пожаловать на наш сайт!</h1>
+        <h1>Информация о нас</h1>
 
-        <section id="services">
-            <h2>Наши услуги</h2>\
-            <p>Описание наших услуг</p>
-            <a href="contacts.html"> Связаться с нами</a>
+        <section> 
+            <h2>Наша история</h2>
+            <p> Очень длинная история нашей компании</p>
         </section>
-
-        <section id="portfolio">
-            <h2>Портофолио</h2>
-            <p>Список наших работ</p>
-            <a href="about.html">О нас</a>
-        </section>
-
-        <section id="contacts">
-            <h2>Связь с нами</h2>
-            <p>Контактная информация</p>
-            <a href="contacts.html">Наши контакты</a>
+    
+        <section> 
+            <h2>Наша команда</h2>
+            <p>Описание нашей команды</p>
         </section>
     </main>
 
